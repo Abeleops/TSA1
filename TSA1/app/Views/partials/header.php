@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= esc($title ?? 'Tasks for Today') ?></title>
+    <title><?= esc($title ?? 'ChinitaTasker') ?></title>
     <link rel="stylesheet" href="<?= base_url('public/assets/css/style.css') ?>">
 </head>
 <body>
     <header class="site-header">
         <div class="container nav-wrap">
-            <a class="brand" href="<?= site_url('/') ?>">Tasks for Today</a>
+            <a class="brand" href="<?= site_url('/') ?>">ChinitaTasker</a>
 
             <nav class="main-nav" aria-label="Main navigation">
                 <a href="<?= site_url('/') ?>"        class="<?= $path === '' ? 'active' : '' ?>">Welcome</a>
